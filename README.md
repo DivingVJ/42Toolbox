@@ -1,4 +1,4 @@
-# 42 Toolbox
+# libft Toolbox
 All in one toolbox for functions commonly used in 42 projects
 Does NOT follow libft 
 Functions are continuously added
