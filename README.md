@@ -50,27 +50,21 @@ ft_printf added
 ## Unsorted
 | Function | Prototype | Description |
 |---|---|---|
-
 | ft_bzero | void	ft_bzero(void *str, size_t n) | writes n bytes of string with null |
 | ft_calloc | void	*ft_calloc(size_t num, size_t size) | alloc memory, set to 0 |
-
 | ft_memchr | void	*ft_memchr(const void *str, int c, size_t n) | returns pointer to the first occurence of c |
 | ft_memcmp | int	ft_memcmp(const void *str1, const void *str2, size_t n) | compares first n characters for 2 strings. Returns first diff |
 | ft_memcpy | void	*ft_memcpy(void *dest, const void *src, size_t n) | copies the first n chars from src to dest with no overlap. |
 | ft_memmove | void	*ft_memmove(void *dest, const void *src, size_t n) | copies n bytes of src into dest. Memory location can overlap |
 | ft_memset | void	*ft_memset(void *str, int c, size_t n) | replaces first n bytes of a string with character c |
- | ft_printf | int	ft_printf(const char *str, ...) | printf without bonus|
- 
-
+| ft_printf | int	ft_printf(const char *str, ...) | printf without bonus|
 | ft_strdup | char	*ft_strdup(const char *src) | duplicates a string |
 | ft_striteri | void	ft_striteri(char *s, void (*f)(unsigned int, char*)) | applies func f to each character in string s |
-
- | ft_strlcat | size_t	ft_strlcat(char *dest, const char *src, size_t size) | Cats size - 1 chars from src to dest with null added |
- | ft_strlcpy | size_t	ft_strlcpy(char *dest, const char *src, size_t size) | Copies up to size - 1 fr src to dest. Null ended. |
- | ft_strlen | size_t	ft_strlen(const char *str) | returns number of character in a string |
- | ft_strmapi | char	*ft_strmapi(char const *s, char (*f)(unsigned int, char)) | applies func f to each character in string s |
- | ft_strncmp | int	ft_strncmp(const char *s1, const char *s2, size_t n)
- | compares first n characters for 2 strings. |
+| ft_strlcat | size_t	ft_strlcat(char *dest, const char *src, size_t size) | Cats size - 1 chars from src to dest with null added |
+| ft_strlcpy | size_t	ft_strlcpy(char *dest, const char *src, size_t size) | Copies up to size - 1 fr src to dest. Null ended. |
+| ft_strlen | size_t	ft_strlen(const char *str) | returns number of character in a string |
+| ft_strmapi | char	*ft_strmapi(char const *s, char (*f)(unsigned int, char)) | applies func f to each character in string s |
+| ft_strncmp | int	ft_strncmp(const char *s1, const char *s2, size_t n) | compares first n characters for 2 strings. |
 
 
  
