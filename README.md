@@ -32,7 +32,7 @@ ft_printf added
 | ft_split | char	**ft_split(char const *s, char c) | splits string s using character c as delimiter 
 | ft_strtrim | char	*ft_strtrim(char const *s1, char const *set) | returns string with characters in set trimmed from front & back |
 | ft_strjoin | char	*ft_strjoin(char const *s1, char const *s2) | returns ptr to new string after  cat 2 strings |
-| ft_substr | returns pointer to substring from start, length of len |
+| ft_substr | char	*ft_substr(char const *str, unsigned int start, size_t len) | returns pointer to substring from start, length of len |
 
 ## String conversion functions
 | Function | Prototype | Description |
