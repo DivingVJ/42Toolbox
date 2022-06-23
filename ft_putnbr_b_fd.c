@@ -1,6 +1,6 @@
 #include "libft.h"
 
-/* putnbr_base - opens an external file and writes in int in a secfied base */
+/* putnbr_base - opens an external file and writes in int in a specfied base */
 static int	check_base(char *base)
 {
 	int	i;
